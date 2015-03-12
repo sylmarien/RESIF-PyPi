@@ -9,6 +9,6 @@ install: "pip install dist/*"
 script:
   - "resif --version"
   - "resif init --srcpath ./.resif/src"
-  - "resif bootstrap --srcpath ./.resif/src --apps_root ./bootstrap --"
+  - "resif bootstrap --srcpath ./.resif/src --apps-root ./bootstrap --"
 matrix:
   fast_finish: true
