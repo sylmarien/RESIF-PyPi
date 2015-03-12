@@ -9,6 +9,8 @@ install: "pip install dist/*"
 script:
   - "resif --version"
   - "resif init --srcpath ./.resif/src"
-  - "resif bootstrap --srcpath ./.resif/src --apps-root ./bootstrap --"
+  - "resif bootstrap --srcpath ./.resif/src --apps-root ./bootstrap"
+  - "echo core: >> test.yaml && echo '  - bzip2-1.0.6.eb'"
+  - "resif cleaninstall --srcpath ./.resif/src --apps-root ./bootstrap --swsets-config test.yaml core"
 matrix:
   fast_finish: true
