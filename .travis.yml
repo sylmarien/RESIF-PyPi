@@ -5,6 +5,7 @@ python:
 # Pre-install step (create the wheel since we want to check if it is "Pypi ready")
 before_install: 
   - "python setup.py bdist_wheel"
+  - sudo apt-get update -qq
   - sudo apt-get install -qq environment-modules
 # Install step (install the wheel that is in dist)
 install: "pip install dist/*"
