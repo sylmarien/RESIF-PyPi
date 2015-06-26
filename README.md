@@ -10,6 +10,8 @@ Copyright (c) 2014 [Sebastien Varrette](mailto:<Sebastien.Varrette@uni.lu>) [www
 [![Documentation Status](https://readthedocs.org/projects/resif-pypi/badge/?version=latest)](https://readthedocs.org/projects/resif-pypi/?badge=latest)
 [![Build Status](https://travis-ci.org/sylmarien/RESIF-PyPi.svg?branch=develop)](https://travis-ci.org/sylmarien/RESIF-PyPi)
 
+**This project is now hosted on the [UL HPC Github](https://github.com/ULHPC/resif). The state of this repository is thus outdated and will certainly not be maintained anymore.**
+
 # RESIF command line interface
 
 ## Overview
